@@ -9,7 +9,9 @@ spec:
     - name: flask-app-container
       image: flaskapp
       imagePullPolicy: Never
-     
+      env:
+        - name: USERNAME
+          value: "Marry"
 
 ---
 
